@@ -1,0 +1,45 @@
+:root {
+  --mk-color: #5A628A;
+}
+
+     /* firma */
+.sig-mk {
+  width: 320px;
+  height: 200px;
+  background: url(https://i.imgur.com/QFaDabA.png);
+  margin: auto;
+  border: 11px solid var(--bo0);
+  outline: 1px solid var(--mk-color);
+  outline-offset: -10px;
+}
+
+.sig-mk .bar {
+  padding: 15px 20px;
+  background-color: var(--fo2);
+  position: absolute;
+  width: 280px;
+  height: 30px;
+  margin-top: 140px;
+  font-family: 'Playfair Display';
+  font-weight: 900;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 100%;
+  text-align: right;
+  color: var(--co2);
+}
+
+.sig-mk .bar span {
+  display: inline-block;
+}
+
+.sig-mk .bar span:before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 205px;
+  background: var(--mk-color);
+  margin-right: 20px;
+  margin-left: -20px;
+  vertical-align: middle;
+}
